@@ -1,6 +1,6 @@
 var view = {
     notice : function (search_result) {
-        show( search_result );
+        this.show( search_result );
     },
     show : function (search_result) {
         var container = $('#container');
