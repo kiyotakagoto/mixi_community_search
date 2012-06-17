@@ -8,19 +8,11 @@
 
 <script type="text/javascript">
 function init() {
-  var req = opensocial.newDataRequest();
-  req.add(req.newFetchPersonRequest(opensocial.IdSpec.PersonId.VIEWER), "viewer");
-  req.send(function(data) {
-    var viewer = data.get("viewer").getData();
-    var name = viewer.getDisplayName();
-    document.getElementById("target").value = name;
-  });
 }
 gadgets.util.registerOnLoadHandler(init);
 </script>
 
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init_mixiapp.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/model.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/view.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/controller.js'></script>

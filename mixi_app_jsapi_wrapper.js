@@ -16,7 +16,7 @@ var mixi_app_jsapi_wrapper = {
                     thumbnail : thumbnail
                 });
             });
-            community.model['communities_data'] = formatted_community;
+            community_model['communities_data'] = formatted_community;
         });
     }
 };
