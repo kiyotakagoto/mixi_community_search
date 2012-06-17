@@ -20,8 +20,7 @@ gadgets.util.registerOnLoadHandler(init);
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init.js'></script>
 
   <div id='navigator'>
-    <input id='search_form_37938' type='text' />
-    <button id='search_button'>検索</button>
+    検索：<input id='search_form' type='text' />
   </div>
   <div id='container'></div>
 
