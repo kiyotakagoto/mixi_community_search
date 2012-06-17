@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Module>
+  <ModulePrefs title="Hello, world!">
+    <Require feature="opensocial-0.8" />
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+
+<script type="text/javascript">
+function init() {
+  var req = opensocial.newDataRequest();
+  req.add(req.newFetchPersonRequest(opensocial.IdSpec.PersonId.VIEWER), "viewer");
+  req.send(function(data) {
+    var viewer = data.get("viewer").getData();
+    var name = viewer.getDisplayName();
+    document.getElementById("target").value = name;
+  });
+}
+gadgets.util.registerOnLoadHandler(init);
+</script>
+
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init_mixiapp.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/model.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/view.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/controller.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/mixi_app_jsapi_wrapper.js'></script>
+  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init.js'></script>
+
+  <div id='navigator'>
+    <input id='search_form' type='text' />
+    <button>検索</button>
+  </div>
+  <div id='container'></div>
+
+  ]]></Content>
+</Module>
