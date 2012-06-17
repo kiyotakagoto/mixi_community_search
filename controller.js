@@ -3,7 +3,7 @@ var controller = {
         var key = $('#search_form').attr('value');
         return key;
     },
-    search_on_change : function () {
+    search : function () {
         var key           = this.get_key();
         if ( key === '' ) { return undefined; }
         var search_result = community_model.search( key );
