@@ -7,12 +7,12 @@
   <Content type="html"><![CDATA[
 
 
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/model.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/view.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/controller.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/mixi_app_jsapi_wrapper.js'></script>
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/model.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/view.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/controller.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/mixi_app_jsapi_wrapper.js'></script>
+  <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/init.js'></script>
   <script type="text/javascript">
     gadgets.util.registerOnLoadHandler(init);
   </script>
