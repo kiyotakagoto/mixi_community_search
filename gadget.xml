@@ -12,7 +12,7 @@ function init() {
 gadgets.util.registerOnLoadHandler(init);
 </script>
 
-  <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
+  <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/model.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/view.js'></script>
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/controller.js'></script>
@@ -20,7 +20,7 @@ gadgets.util.registerOnLoadHandler(init);
   <script type="text/javascript" src='http://rossispiegare.sakura.ne.jp/mixiapp/mixi_community_search/init.js'></script>
 
   <div id='navigator'>
-    <input id='search_form' type='text' />
+    <input id='search_form_37938' type='text' />
     <button>検索</button>
   </div>
   <div id='container'></div>

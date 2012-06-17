@@ -1,6 +1,6 @@
 var controller = {
     get_key : function () {
-        var key = $('#search_form').val;
+        var key = $('#search_form').attr('value');
         return key;
     },
     search_on_change : function () {
