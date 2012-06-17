@@ -1,11 +1,15 @@
 var view = {
+    container : $('#container'),
     notice : function (search_result) {
+        this.reset_container();
         this.show( search_result );
     },
+    reset_container : function () {
+        this.container.children().remove();
+    },
     show : function (search_result) {
-        var container = $('#container');
         for ( var index in search_result ) {
-            container.append( this.create_dom( search_result[ index ] ) );
+            this.container.append( this.create_dom( search_result[ index ] ) );
         }
     },
     create_dom : function ( community_data ) {
