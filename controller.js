@@ -5,6 +5,7 @@ var controller = {
     },
     search_on_change : function () {
         var key           = this.get_key();
+        if ( key === '' ) { return []; }
         var search_result = community_model.search( key );
         view.notice(search_result);
     }
