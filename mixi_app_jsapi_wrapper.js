@@ -9,9 +9,11 @@ var mixi_app_jsapi_wrapper = {
             var communities = data.get("communities").getData();
             var formatted_community = [];
             communities.each( function ( community ) {
+                var id        = community.getId();
                 var name      = community.getName();
                 var thumbnail = community.getField( mixi.Community.Field.THUMBNAIL_URL );
                 formatted_community.push({
+                    id        : id,
                     name      : name,
                     thumbnail : thumbnail
                 });
