@@ -1,3 +1,11 @@
+#! /usr/bin/perl
+use strict;
+use warnings;
+use CGI;
+
+my $cgi = CGI->new;
+print "Content-type: text/html\n\n";
+print <<HTML;
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,3 +29,5 @@
   <div id='container'></div>
 </body>
 </html>
+HTML
+
