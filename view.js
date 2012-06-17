@@ -1,5 +1,4 @@
 var view = {
-    container : $('#container'),
     notice : function (search_result) {
         this.reset_container();
         this.show( search_result );
