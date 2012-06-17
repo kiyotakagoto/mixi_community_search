@@ -21,7 +21,7 @@ gadgets.util.registerOnLoadHandler(init);
 
   <div id='navigator'>
     <input id='search_form_37938' type='text' />
-    <button>検索</button>
+    <button id='search_button'>検索</button>
   </div>
   <div id='container'></div>
 
