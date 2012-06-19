@@ -9,9 +9,6 @@
 
   <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/zepto.min.js'></script>
   <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/mixi_community_search.js'></script>
-  <script type="text/javascript">
-    gadgets.util.registerOnLoadHandler(MixiCommunitySearchObject.init);
-  </script>
 
   <div id='navigator'>
     検索：<input id='search_form' type='text' />

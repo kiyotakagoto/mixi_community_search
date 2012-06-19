@@ -88,3 +88,5 @@ var MixiCommunitySearch = (function () {
     }
     return MixiCommunitySearchObject;
 })();
+
+gadgets.util.registerOnLoadHandler(MixiCommunitySearch.init);
