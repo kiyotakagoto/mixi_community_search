@@ -14,7 +14,7 @@
   <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/mixi_app_jsapi_wrapper.js'></script>
   <script type="text/javascript" src='http://kiyotaka.xii.jp/mixiapp/mixi_community_search/init.js'></script>
   <script type="text/javascript">
-    gadgets.util.registerOnLoadHandler(init);
+    gadgets.util.registerOnLoadHandler(MixiCommunitySearchObject.init);
   </script>
 
   <div id='navigator'>
