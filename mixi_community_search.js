@@ -1,6 +1,6 @@
 var MixiCommunitySearch = (function () {
-    var MixiCommunitySearchObject = {}
-    MixiCommunitySearch.view = {
+    var MixiCommunitySearchObject = {};
+    MixiCommunitySearch['view']= {
         notice : function (search_result) {
             this.reset_container();
             this.show( search_result );
