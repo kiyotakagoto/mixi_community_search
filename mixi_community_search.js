@@ -29,7 +29,7 @@ var MixiCommunitySearch = (function () {
             ;
         }
     };
-    MixiCommunitySearch.community_model = {
+    MixiCommunitySearchObject.community_model = {
         search : function (key) {
             var search_result = [];
             var reg_exp = new RegExp( key );
